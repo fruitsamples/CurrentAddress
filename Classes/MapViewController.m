@@ -1,7 +1,7 @@
 /*
      File: MapViewController.m
  Abstract: Controls the map view and manages the reverse geocoder to get the current address.
-  Version: 1.1
+  Version: 1.2
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -83,7 +83,14 @@
 
 - (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFailWithError:(NSError *)error
 {
-    NSLog(@"MKReverseGeocoder has failed.");
+    NSString *errorMessage = [error localizedDescription];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Cannot obtain address."
+														message:errorMessage
+													   delegate:nil
+											  cancelButtonTitle:@"OK"
+											  otherButtonTitles:nil];
+    [alertView show];
+    [alertView release];
 }
 
 - (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFindPlacemark:(MKPlacemark *)placemark
@@ -94,7 +101,7 @@
     [self presentModalViewController:placemarkViewController animated:YES];
 }
 
-- (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views
+- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
 {
     // we have received our current location, so enable the "Get Current Address" button
     [getAddressButton setEnabled:YES];

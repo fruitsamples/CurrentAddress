@@ -2,7 +2,7 @@
      File: AppDelegate.m
  Abstract: Displays the application window.
  
-  Version: 1.1
+  Version: 1.2
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following

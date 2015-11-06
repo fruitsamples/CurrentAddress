@@ -18,7 +18,7 @@ The MapViewController class and MapViewController.xib encapsulate all the intera
 ===========================================================================
 BUILD REQUIREMENTS
 
-iOS 4.0 SDK
+iOS 4.2 SDK
 
 ===========================================================================
 SYSTEM REQUIREMENTS
@@ -46,8 +46,9 @@ Used for adding and editing world cities.
 ===========================================================================
 CHANGES FROM PREVIOUS VERSIONS
 
-1.1 Upgraded project to build with the iOS 4.0 SDK.
-1.0 Initial version published.
+1.2 - Upgraded to iOS 4.2 SDK, now using "mapView:didUpdateUserLocation:userLocation" to enable showing the user's address.
+1.1 - Upgraded project to build with the iOS 4.0 SDK.
+1.0 - Initial version published.
 
 ===========================================================================
 Copyright (C) 2009-2010 Apple Inc. All rights reserved.
