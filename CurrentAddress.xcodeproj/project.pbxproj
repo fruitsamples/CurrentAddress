@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18352AE311CFFCFC0089BE2C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 18352AE111CFFCFC0089BE2C /* Icon-72.png */; };
+		18352AE411CFFCFC0089BE2C /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 18352AE211CFFCFC0089BE2C /* Icon-Small-50.png */; };
+		186839B811CC2FB8004039C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 186839B711CC2FB8004039C4 /* Default.png */; };
+		186839BE11CC2FBE004039C4 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 186839B911CC2FBE004039C4 /* Icon-Small.png */; };
+		186839BF11CC2FBE004039C4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186839BA11CC2FBE004039C4 /* Icon-Small@2x.png */; };
+		186839C011CC2FBE004039C4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 186839BB11CC2FBE004039C4 /* Icon.png */; };
+		186839C111CC2FBE004039C4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186839BC11CC2FBE004039C4 /* Icon@2x.png */; };
+		18B91B8211D27C9E005D5ACD /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 18B91B8111D27C9E005D5ACD /* iTunesArtwork */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -18,10 +26,17 @@
 		533294D710C9C82600B2E4F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533294D110C9C82600B2E4F7 /* MainWindow.xib */; };
 		533294D810C9C82600B2E4F7 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533294D310C9C82600B2E4F7 /* MapViewController.xib */; };
 		533294D910C9C82600B2E4F7 /* PlacemarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533294D510C9C82600B2E4F7 /* PlacemarkViewController.xib */; };
-		5385C44D10D955490079FF58 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5385C44C10D955490079FF58 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18352AE111CFFCFC0089BE2C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "images/Icon-72.png"; sourceTree = "<group>"; };
+		18352AE211CFFCFC0089BE2C /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		186839B711CC2FB8004039C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
+		186839B911CC2FBE004039C4 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "images/Icon-Small.png"; sourceTree = "<group>"; };
+		186839BA11CC2FBE004039C4 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		186839BB11CC2FBE004039C4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/Icon.png; sourceTree = "<group>"; };
+		186839BC11CC2FBE004039C4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = "<group>"; };
+		18B91B8111D27C9E005D5ACD /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = images/iTunesArtwork; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,7 +54,6 @@
 		533294D210C9C82600B2E4F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		533294D410C9C82600B2E4F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapViewController.xib; sourceTree = "<group>"; };
 		533294D610C9C82600B2E4F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PlacemarkViewController.xib; sourceTree = "<group>"; };
-		5385C44C10D955490079FF58 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CurrentAddress-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CurrentAddress-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +111,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5385C44C10D955490079FF58 /* Default.png */,
+				18B91B8111D27C9E005D5ACD /* iTunesArtwork */,
+				18352AE111CFFCFC0089BE2C /* Icon-72.png */,
+				18352AE211CFFCFC0089BE2C /* Icon-Small-50.png */,
+				186839B911CC2FBE004039C4 /* Icon-Small.png */,
+				186839BA11CC2FBE004039C4 /* Icon-Small@2x.png */,
+				186839BB11CC2FBE004039C4 /* Icon.png */,
+				186839BC11CC2FBE004039C4 /* Icon@2x.png */,
+				186839B711CC2FB8004039C4 /* Default.png */,
 				533294D110C9C82600B2E4F7 /* MainWindow.xib */,
 				533294D310C9C82600B2E4F7 /* MapViewController.xib */,
 				533294D510C9C82600B2E4F7 /* PlacemarkViewController.xib */,
@@ -169,7 +190,14 @@
 				533294D710C9C82600B2E4F7 /* MainWindow.xib in Resources */,
 				533294D810C9C82600B2E4F7 /* MapViewController.xib in Resources */,
 				533294D910C9C82600B2E4F7 /* PlacemarkViewController.xib in Resources */,
-				5385C44D10D955490079FF58 /* Default.png in Resources */,
+				186839B811CC2FB8004039C4 /* Default.png in Resources */,
+				186839BE11CC2FBE004039C4 /* Icon-Small.png in Resources */,
+				186839BF11CC2FBE004039C4 /* Icon-Small@2x.png in Resources */,
+				186839C011CC2FBE004039C4 /* Icon.png in Resources */,
+				186839C111CC2FBE004039C4 /* Icon@2x.png in Resources */,
+				18352AE311CFFCFC0089BE2C /* Icon-72.png in Resources */,
+				18352AE411CFFCFC0089BE2C /* Icon-Small-50.png in Resources */,
+				18B91B8211D27C9E005D5ACD /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +279,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
 		};
@@ -264,8 +293,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
 		};

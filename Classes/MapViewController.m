@@ -1,7 +1,7 @@
 /*
      File: MapViewController.m
  Abstract: Controls the map view and manages the reverse geocoder to get the current address.
-  Version: 1.0
+  Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
